@@ -1,11 +1,15 @@
 import './App.css'
 import Navbar from './components/layout/Navbar'
+import Home from './components/pages/Home'
 
 
 function App() {
 
-  return (<><Navbar/><h1 className='font-inter text-9xl font-extrabold'>Hello</h1>
-  <h1 className='text-9xl font-extrabold'>Hello</h1></>
+  return (<><Navbar/>
+  <div className=" mx-6 lg:mx-16 mt-8 md:mt-16">
+  <Home/>
+  </div>
+  </>
   )
 }
 

@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-       'inter': ["Inter", "sans-serif"],
+       'inter': ["El Messiri", "sans-serif"],
+       'nlink':["Inter", "sans-serif"],
+       'monument':["Monument","Extended" ,"Ultrabold","sans-serif"]
       },
     },
   },
