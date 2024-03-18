@@ -8,9 +8,13 @@ export default {
     extend: {
       fontFamily: {
        'inter': ["El Messiri", "sans-serif"],
-       'nlink':["Inter", "sans-serif"],
+       'enter':["Inter", "sans-serif"],
        'monument':["Monument","Extended" ,"Ultrabold","sans-serif"]
       },
+      spacing: {
+        '102': '28rem',
+        '74':'18.25rem' 
+      }
     },
   },
   plugins: [],

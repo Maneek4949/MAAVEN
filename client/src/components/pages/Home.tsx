@@ -17,7 +17,7 @@ function Home() {
       <div className='absolute bottom-0 p-3 md:p-9 '>
         <h2 className="font-monument text-black text-2xl md:text-6xl font-extrabold">RIGHT TO</h2>
         <h2 className="font-monument text-black text-3xl md:text-7xl font-extrabold">FASHION</h2>
-        <a className='flex' href=''><p className='mr-3 font-bold rounded-3xl  text:lg md:text-xl md:py-2 md:px-3 py-1 px-2 bg-gray-400 bg-opacity-60 backdrop-filter backdrop-blur-lg font-nlink'>SHOP NOW</p></a>
+        <a className='flex' href=''><p className='mr-3 font-bold rounded-3xl  text:lg md:text-xl md:py-2 md:px-3 py-1 px-2 bg-gray-600 hover:bg-gray-500 bg-opacity-60 backdrop-filter backdrop-blur-lg font-nlink'>SHOP NOW</p></a>
       </div>
       </div>
   )

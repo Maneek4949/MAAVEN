@@ -19,7 +19,7 @@ const MenuLinks = [
 
 const Navbar = ({}) => {
   return (
-      <nav className="bg-white duration-200 z-40 border border-black-600 px-3 md:px-10 mx-1 md:mx-24 rounded-b-3xl bg-opacity-60 backdrop-filter backdrop-blur-lg sticky top-0">
+      <nav className=" duration-200 z-40 border border-black-600 px-3 md:px-10 mx-1 md:mx-24 rounded-b-3xl bg-white bg-opacity-60 backdrop-filter backdrop-blur-lg sticky top-0">
         <div className="py-2">
           <div className="container flex justify-between items-center">
             {/* Logo and Links section */}
@@ -37,7 +37,7 @@ const Navbar = ({}) => {
                     <li key={index}>
                       <a
                         href={data.link}
-                        className="inline-block font-nlink px-4 text-lg font-bold text-gray-700 hover:text-black transition-colors duration-300 ease-out  focus:outline-none relative w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-900 after:w-9/12 after:scale-x-0 after:hover:scale-x-100 after:origin-left after:duration-300"
+                        className="inline-block font-enter px-4 text-lg font-bold text-gray-700 hover:text-black transition-colors duration-300 ease-out  focus:outline-none relative w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-gray-900 after:w-9/12 after:scale-x-0 after:hover:scale-x-100 after:origin-left after:duration-300"
                       >
                         {data.name}
                       </a>
