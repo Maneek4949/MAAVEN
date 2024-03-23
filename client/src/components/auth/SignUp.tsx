@@ -2,7 +2,7 @@ import {useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { signUp } from '../../services/AuthService';
 import Input from '../ui/Input';
-import Button from '../ui/Button';
+import Button from '../ui/MyButton';
 import AuthImageContainer from '../ui/AuthImageContainer';
 
 

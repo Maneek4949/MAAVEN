@@ -9,6 +9,7 @@ function App() {
   <div className=" mx-6 lg:mx-16 mt-8 md:mt-16">
   <Home/>
   <ProjectCard/>
+  <ProjectCard/>
   </div>
   </>
   )

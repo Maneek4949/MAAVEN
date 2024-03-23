@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { signIn } from "../../services/AuthService";
 import Input from "../ui/Input";
 import AuthImageContainer from "../ui/AuthImageContainer";
-import Button from "../ui/Button";
+import Button from "../ui/MyButton";
 
 function SignIn() {
   const [email, setEmail] = useState("");

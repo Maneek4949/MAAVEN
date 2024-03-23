@@ -54,6 +54,7 @@ const Navbar = ({}) => {
               </button>
               {/* User Button*/}
               <button className="m-2 p-1 bg-inherit hover:bg-gray-300 hover:rounded-full">
+                
                 <HiOutlineUserCircle size={25} className="text-gray-900 text-center" />
               </button>
              
