@@ -37,10 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
+    'graphene_django',
+    'corsheaders',
     'product',
     'authenticate',
     'order'
+
 ]
 
 MIDDLEWARE = [
@@ -51,6 +53,16 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+]
+
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:5173',
+]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    
 ]
 
 ROOT_URLCONF = 'ecartApi.urls'
@@ -125,7 +137,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-MEDIA_URL = '/media/'
+MEDIA_URL='/media/'
 
 # Path where media is stored'
 MEDIA_ROOT = BASE_DIR / 'media'
