@@ -136,3 +136,4 @@ GitHub.sublime-settings
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+ecartApi/ecartApi/__pycache__/settings.cpython-39.pyc

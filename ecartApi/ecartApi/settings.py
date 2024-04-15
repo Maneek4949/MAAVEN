@@ -94,7 +94,7 @@ DATABASES = {
          "ENGINE": "django.db.backends.mysql",
         "NAME": "maaven",
         "USER": "root",
-        "PASSWORD": "12345",
+        "PASSWORD": "11111",
         "HOST": "127.0.0.1",
         "PORT": "3306",
     }
